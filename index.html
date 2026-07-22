@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Haitham Al Maamari builds practical data systems, AI workflows, and automation projects." />
-    <title>Haitham Al Maamari | Data Systems & AI Workflows</title>
+    <meta name="description" content="Haitham Al Maamari is a data analytics and applied AI professional building SQL reporting, data-platform, LLM, and automation solutions." />
+    <title>Haitham Al Maamari | Data Analytics &amp; Applied AI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -31,14 +31,14 @@
               <h1 id="hero-heading">Business questions,<br /><em>made into</em> working systems.</h1>
             </div>
             <div class="hero-intro">
-              <p>I work where data requirements, platform change, and practical AI ideas meet. My focus is turning a messy brief into something useful, reliable, and clear.</p>
+              <p>I translate business requirements into SQL reporting, data-platform migrations, and practical LLM and automation solutions.</p>
               <a class="text-link" href="#work">Explore selected work <span aria-hidden="true">&#8594;</span></a>
             </div>
           </div>
           <div class="signal-strip" aria-label="Current focus">
             <div><span class="signal-label">Current role</span><strong>Assistant Specialist</strong><small>Data Analytics &amp; AI Platforms, Omantel</small></div>
-            <div><span class="signal-label">Current interest</span><strong>Generative AI</strong><small>Applied workflows and useful automation</small></div>
-            <div><span class="signal-label">Portfolio contents</span><strong>Project archive</strong><small>Systems, methods, and professional profile</small></div>
+            <div><span class="signal-label">Current focus</span><strong>Applied LLM workflows</strong><small>Practical automation with clear validation</small></div>
+            <div><span class="signal-label">Portfolio contents</span><strong>Live and internal work</strong><small>Systems, methods, and professional profile</small></div>
           </div>
         </section>
 
@@ -46,16 +46,16 @@
           <p class="section-kicker">01 / Selected work</p>
           <div>
             <h2 id="work-heading">Proof over promises.</h2>
-            <p>Every project starts with a practical problem, then makes its process visible. The work below shows how I approach AI and automation: clear inputs, thoughtful validation, and outputs that people can actually use.</p>
+            <p>Every project starts with a practical problem. The work below shows how I approach data and AI delivery: clear inputs, explicit ownership, deterministic checks, and outputs people can use.</p>
           </div>
         </section>
 
         <article class="project project-featured" aria-labelledby="news-heading">
           <div class="project-marker"><span>01</span><span>Automation system</span></div>
           <div class="project-content">
-            <p class="project-eyebrow">Personal project / active</p>
-            <h2 id="news-heading">A daily news briefing that checks itself before it arrives.</h2>
-            <p class="project-lede">A cron-scheduled pipeline gathers news from multiple sources, validates what deserves attention, and turns the final selection into a concise daily briefing.</p>
+            <p class="project-eyebrow">Live / private deployment</p>
+            <h2 id="news-heading">A live daily briefing with validation built into delivery.</h2>
+            <p class="project-lede">A VPS-hosted workflow runs at 9:00 AM, uses Hermes to gather candidate stories, then passes structured JSON to a Python layer that validates, ranks, archives, and delivers a briefing to approximately 10 recurring users.</p>
             <div class="system-layout">
               <div class="pipeline" role="group" aria-label="News briefing pipeline phases">
                 <button class="pipeline-step is-active" type="button" data-step="gather" aria-pressed="true"><span>01</span>Gather</button>
@@ -66,22 +66,25 @@
               <div class="pipeline-detail" aria-live="polite">
                 <p class="detail-label">Phase <span id="phase-number">01</span></p>
                 <h3 id="phase-title">Gather</h3>
-                <p id="phase-copy">Sweeps Tier 1, Tier 2, and Tier 3 sources to build a candidate list for the daily edition.</p>
+                <p id="phase-copy">Hermes gathers candidate stories from a source catalogue and writes structured JSON for the deterministic pipeline.</p>
               </div>
             </div>
             <div class="verification-panel">
               <div class="verification-heading"><p>Five mandatory checks</p><span>V1 - V5</span></div>
               <ol>
-                <li><strong>Source verification</strong><span>Opens each URL, checks the date, and reads the article content.</span></li>
-                <li><strong>Cross-reference</strong><span>Top-priority stories need independent confirmation or are qualified or removed.</span></li>
-                <li><strong>Historical deduplication</strong><span>Checks the previous three issues before repeating a story.</span></li>
-                <li><strong>Internal consistency</strong><span>Rechecks summaries, URLs, issue duplicates, and the 12-story limit.</span></li>
-                <li><strong>Editorial note</strong><span>Records what passed, what was dropped, and why.</span></li>
+                <li><strong>Freshness and source</strong><span>Requires valid source metadata and a publication date inside the freshness window.</span></li>
+                <li><strong>Cross-reference</strong><span>High-priority stories require an independent confirming source.</span></li>
+                <li><strong>Archive deduplication</strong><span>Checks the previous three issues before repeating a story.</span></li>
+                <li><strong>Internal consistency</strong><span>Rejects duplicate headlines, duplicate URLs, and invalid URLs before ranking.</span></li>
+                <li><strong>Editorial counts</strong><span>Records candidate, pass, and drop counts for the operator.</span></li>
               </ol>
             </div>
             <div class="project-footer">
-              <p>DeepSeek analyses coverage, validates the daily selection, and prepares the final delivery message for the chosen channel.</p>
-              <ul class="tag-list" aria-label="Project capabilities"><li>Cron</li><li>Multi-source research</li><li>DeepSeek</li><li>Message automation</li></ul>
+              <div class="project-footer-copy">
+                <p>The public package exposes the sanitised validation, ranking, formatting, archive, and delivery layer while private prompts, recipients, credentials, and VPS configuration remain excluded.</p>
+                <a class="project-repo" href="https://github.com/HaithamAlMaamari/newsletter-briefing">View public repository <span aria-hidden="true">&#8599;</span></a>
+              </div>
+              <ul class="tag-list" aria-label="Project capabilities"><li>Python</li><li>Hermes</li><li>VPS</li><li>Deterministic validation</li></ul>
             </div>
           </div>
         </article>
@@ -90,15 +93,15 @@
           <div class="project-marker"><span>02</span><span>AI assistant</span></div>
           <div class="project-content project-secondary-content">
             <div>
-              <p class="project-eyebrow">Omantel Gen Z programme / recognised</p>
+              <p class="project-eyebrow">Archived prototype / ranked 1st</p>
               <h2 id="email-heading">Context before the reply.</h2>
-              <p class="project-lede">An LLM-powered assistant designed to read the entire email thread, extract the relevant context, and prepare a response that fits the conversation.</p>
+              <p class="project-lede">An LLM-powered assistant built to read an entire email thread, extract relevant context, and draft a response with configurable controls. The prototype was archived after Omantel adopted Microsoft Copilot.</p>
             </div>
             <div class="email-controls" aria-label="Email assistant controls">
               <span>Full-thread reading</span><span>Context extraction</span><span>Reply tone</span><span>Temperature</span><span>Summary depth</span><span>Reply drafting</span>
             </div>
             <div class="email-flow" aria-label="Email assistant workflow"><span>Read the thread</span><i aria-hidden="true">&#8594;</i><span>Extract context</span><i aria-hidden="true">&#8594;</i><span>Summarise intent</span><i aria-hidden="true">&#8594;</i><span>Draft the response</span></div>
-            <div class="award-block"><span>Top 1</span><p>Selected as the top AI project in Omantel's Gen Z programme.</p></div>
+            <div class="award-block"><span>1st</span><p>Ranked 1st in Omantel's Gen Z AI project competition.</p></div>
           </div>
         </article>
 
@@ -106,12 +109,17 @@
           <p class="section-kicker">02 / Enterprise work</p>
           <div>
             <h2 id="enterprise-heading">Systems work, with the data kept private.</h2>
-            <p>My work at Omantel involves internal data and cannot be publicly demonstrated. What I can share is the kind of work I contribute to: turning departmental requirements into reports, rebuilding dashboards for a new data warehouse, migrating scheduled reports, and supporting data-governance delivery.</p>
+            <p>My Omantel work involves internal data and cannot be publicly demonstrated. My responsibilities include translating stakeholder requirements into SQL reports, rebuilding dashboards against the new data warehouse, migrating scheduled reports, preparing governance datasets, and coordinating cross-team delivery.</p>
+            <article class="enterprise-case">
+              <p class="project-eyebrow">Live / internal collaboration</p>
+              <h3>Telecom competitor intelligence portal</h3>
+              <p>Collected and validated competitor data, gathered stakeholder requirements, and contributed to interface development. The collaborating team remains responsible for automation, deployment, and ongoing support.</p>
+            </article>
             <div class="enterprise-list">
-              <span>SQL reporting for campaigns, promotions, and analysis</span>
-              <span>Dashboard reconstruction during data-warehouse transition</span>
-              <span>Scheduled-report migration and continuity support</span>
-              <span>Data governance and cross-team coordination</span>
+              <span>SQL reporting for campaigns, promotions, operational analysis, and ad hoc requests</span>
+              <span>Dashboard rebuilding during migration from the legacy reporting platform</span>
+              <span>Scheduled-report migration and platform-transition continuity</span>
+              <span>Data governance, ORKI initiatives, and stakeholder coordination</span>
             </div>
           </div>
         </section>
@@ -121,10 +129,10 @@
           <div>
             <h2 id="practice-heading">A broad toolkit, held together by method.</h2>
             <div class="practice-grid">
-              <article><span>01</span><h3>Data platforms</h3><p>SQL, Greenplum, DBeaver, reporting, dashboard rebuilding, data quality, and warehouse transition.</p></article>
-              <article><span>02</span><h3>AI and machine learning</h3><p>Generative AI, LLM workflows, prompt design, NLP, supervised and unsupervised learning, neural networks, and recommender systems.</p></article>
-              <article><span>03</span><h3>Automation</h3><p>Cron scheduling, multi-source collection, validation workflows, archival deduplication, and messaging automation.</p></article>
-              <article><span>04</span><h3>Ways of working</h3><p>Creative problem solving, adaptability, stakeholder communication, initiative, and continuous learning.</p></article>
+              <article><span>01</span><h3>Data reporting</h3><p>SQL, Greenplum, DBeaver, dashboard rebuilding, scheduled-report migration, and requirements gathering.</p></article>
+              <article><span>02</span><h3>Applied AI</h3><p>Generative AI, prompt engineering, LLM workflow and assistant design, Anthropic Claude API, local Qwen3-8B, and Hermes.</p></article>
+              <article><span>03</span><h3>Automation</h3><p>n8n, cron scheduling, multi-source collection, content validation, archive deduplication, and messaging automation.</p></article>
+              <article><span>04</span><h3>Prototyping and ML</h3><p>LangChain, LangGraph, model routing, Python, supervised and unsupervised learning, NLP, and time-series forecasting.</p></article>
             </div>
           </div>
         </section>
@@ -135,10 +143,13 @@
             <h2 id="profile-heading">A career built through changing contexts.</h2>
             <ol class="timeline">
               <li><span>2025 - now</span><div><h3>Assistant Specialist</h3><p>Omantel, Data Analytics &amp; AI Platforms</p></div></li>
-              <li><span>2024 - 2025</span><div><h3>Gen Z Trainee</h3><p>Omantel, Data Science &amp; AI programme with Codeline</p></div></li>
+              <li><span>2024 - 2025</span><div><h3>Gen Z Trainee</h3><p>Omantel, Data Science &amp; Machine Learning Programme with Codeline</p></div></li>
               <li><span>2022 - 2024</span><div><h3>Intern</h3><p>Jarzez Trading LLC, operations and project coordination</p></div></li>
               <li><span>2017 - 2022</span><div><h3>BSc Computer Science</h3><p>University of Reading, United Kingdom</p></div></li>
+              <li><span>2016</span><div><h3>GED</h3><p>Al Sahwa Schools, Muscat</p></div></li>
+              <li><span>2014</span><div><h3>Extracurricular Military Programme (ROP)</h3><p>Al Sahwa Schools, Muscat</p></div></li>
             </ol>
+            <p class="profile-languages"><span>Languages</span> Arabic (Native) / English (Fluent)</p>
             <div class="profile-actions">
               <a class="button" href="mailto:almamarih7@gmail.com">Start a conversation <span aria-hidden="true">&#8599;</span></a>
               <button class="text-button" type="button" data-print>Print / Save CV</button>
@@ -148,7 +159,7 @@
       </main>
 
       <footer>
-        <div><span class="wordmark">haithams<span>.info</span></span><p>Data systems, AI workflows, and practical experimentation.</p></div>
+        <div><span class="wordmark">haithams<span>.info</span></span><p>Data analytics, AI workflows, and practical automation.</p></div>
         <div class="footer-links"><a href="https://www.linkedin.com/in/haithamalmaamari/">LinkedIn</a><a href="https://github.com/HaithamAlMaamari">GitHub</a><a href="mailto:almamarih7@gmail.com">Email</a></div>
         <span class="copyright">&copy; <span id="year"></span> Haitham Al Maamari</span>
       </footer>

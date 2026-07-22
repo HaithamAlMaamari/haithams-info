@@ -2,22 +2,22 @@ const phases = {
   gather: {
     number: "01",
     title: "Gather",
-    copy: "Sweeps Tier 1, Tier 2, and Tier 3 sources to build a candidate list for the daily edition.",
+    copy: "Hermes gathers candidate stories from a source catalogue and writes structured JSON for the deterministic pipeline.",
   },
   validate: {
     number: "02",
     title: "Validate",
-    copy: "Runs source, cross-reference, archive, consistency, and editorial checks before any story can ship.",
+    copy: "Runs freshness, source metadata, cross-reference, archive, consistency, and editorial-count checks before ranking.",
   },
   rank: {
     number: "03",
     title: "Rank & format",
-    copy: "Prioritises the most useful stories, applies editorial rules, and prepares a concise delivery-ready briefing.",
+    copy: "Ranks the validated stories by importance, caps the edition at 12, and formats it for delivery.",
   },
   deliver: {
     number: "04",
     title: "Write & deliver",
-    copy: "Writes the final edition, records the editorial note, and sends the completed daily briefing through the chosen channel.",
+    copy: "Writes the latest edition and dated archive, then optionally invokes Hermes for delivery.",
   },
 };
 
