@@ -42,5 +42,4 @@ steps.forEach((step) => {
   });
 });
 
-document.querySelector("[data-print]")?.addEventListener("click", () => window.print());
 document.querySelector("#year").textContent = new Date().getFullYear();
