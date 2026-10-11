@@ -1,7 +1,7 @@
 # haithams.info
 
-Personal portfolio of Haitham Yasser Al Maamari, focused on data analytics,
-applied AI, automation, and telecom platform work.
+Personal portfolio of Haitham Yasser Al Maamari, agentic AI engineer: internal
+LLM systems, open-source AI builds, and professional profile.
 
 **Live site:** [haithams.info](https://haithams.info)
 
