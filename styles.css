@@ -102,6 +102,8 @@ h1, h2, h3, p { margin-top: 0; }
 .enterprise-case .project-eyebrow { margin-bottom: 0.8rem; color: var(--clay); }
 .enterprise-case h3 { margin-bottom: 0.6rem; color: var(--deep); font: 2rem/1.05 var(--serif); }
 .enterprise-case + .enterprise-case { margin-top: 1rem; }
+.practice-grid.build-grid { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 850px) { .practice-grid.build-grid { grid-template-columns: 1fr; } }
 .practice-grid .project-repo { display: inline-block; margin-top: 1rem; color: var(--deep); text-decoration: none; }
 .enterprise-case p:last-child { max-width: 650px; margin-bottom: 0; font-size: 0.9rem; }
 .enterprise-list { display: grid; grid-template-columns: 1fr 1fr; margin-top: 2.4rem; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
